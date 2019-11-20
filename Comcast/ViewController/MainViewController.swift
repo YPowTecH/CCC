@@ -39,7 +39,7 @@ class MainViewController: UIViewController {
         setupView()
     }
     
-    func setupView() {
+    private func setupView() {
         //----------------------------
         //Search Bar
         //----------------------------
@@ -81,32 +81,16 @@ class MainViewController: UIViewController {
 //Search Bar Extension
 //----------------------------
 extension MainViewController: UISearchResultsUpdating {
-    
-    
     func updateSearchResults(for searchController: UISearchController) {
         guard let search = searchController.searchBar.text else { return }
         viewModel.filter(characters: search)
     }
-    
-    /*
-    
-    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-        searchBar.text = searchController.searchBar.text
-    }
-    
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        guard let searchText = searchBar.text?.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return }
-        mainTableView.setContentOffset(.zero, animated: false)
-        
-        //viewModel.getSearch(searchText)
-    }
-    
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        //viewModel.getSearch()
-    }*/
 }
 //----------------------------
 
+//----------------------------
+//Table View Extension
+//----------------------------
 extension MainViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return isFiltering ? 1 : viewModel.orderedCharacters.keys.count
@@ -151,11 +135,18 @@ extension MainViewController: UITableViewDelegate {
             viewModel.filteredCharacters : viewModel.getCharactersAt(indexPath.section)
         let character = characters[indexPath.row]
         
-        viewModel.currentCharacter = character//viewModel.characters[indexPath.row]
-        goToDetail(with: viewModel)
+        viewModel.detailDelegate?.update(character)
+        
+        if let detailViewController = viewModel.detailDelegate as? DetailViewController, let detailNavigationController = detailViewController.navigationController {
+            splitViewController?.showDetailViewController(detailNavigationController, sender: nil)
+        }
     }
 }
+//----------------------------
 
+//----------------------------
+//Custom Error Alert extension
+//----------------------------
 extension MainViewController {
     //If the view receives an error message we have to display that
     //  to the user in a useful way
@@ -167,14 +158,14 @@ extension MainViewController {
                                       preferredStyle: .alert)
         //retry button to attempt another get request from the url
         let retry = UIAlertAction(title: "RETRY", style: .default) { (_) in
-            //self.viewModel.get()
+            self.viewModel.getCharacters()
         }
         
         //cancel button to stop trying to get the data for another 2 seconds
         //  should be longer probably but for testing purposes its 2 seconds
         let cancel = UIAlertAction(title: "CANCEL", style: .default) { (_) in
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0, execute: {
-                //self.viewModel.getPlaceholders()
+                self.viewModel.getCharacters()
             })
         }
         

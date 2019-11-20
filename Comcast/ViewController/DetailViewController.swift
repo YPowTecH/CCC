@@ -17,14 +17,18 @@ class DetailViewController: UIViewController {
     //Easy to reference identifier for use in other ViewControllers
     static let identifier = "DetailViewController"
     
-    var viewModel = ViewModel()
+    var character: Character? {
+        didSet {
+            setupView()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupView()
     }
     
-    func setupView() {
+    private func setupView() {
+        loadViewIfNeeded()
         detailImg.layer.borderWidth = 0.5
         detailImg.layer.backgroundColor = UIColor.lightGray.cgColor
         detailImg.layer.borderColor = UIColor.black.cgColor
@@ -33,10 +37,20 @@ class DetailViewController: UIViewController {
         detailImg.clipsToBounds = true
         detailImg.contentMode = .scaleAspectFit
         
-        viewModel.currentCharacter.getImg() { [weak self] img in
+        guard let currentCharacter = character else { return }
+        currentCharacter.getImg() { [weak self] img in
             self?.detailImg.image = img
         }
-        detailNameLabel.text = viewModel.currentCharacter.getName()
-        detailDescLabel.text = viewModel.currentCharacter.getDesc()
+        
+        detailNameLabel.text = currentCharacter.getName()
+        detailDescLabel.text = currentCharacter.getDesc()
+    }
+}
+
+extension DetailViewController: DetailDelegate {
+    func update(_ newCharacter: Character) {
+        DispatchQueue.main.async {
+            self.character = newCharacter
+        }
     }
 }

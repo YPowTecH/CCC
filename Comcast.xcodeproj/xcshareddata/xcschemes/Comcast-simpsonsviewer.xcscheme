@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1030"
+   LastUpgradeVersion = "1120"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "985E3E74237E4F4E00F00D22"
+               BlueprintIdentifier = "988036FB2385A5E2003AE4A8"
                BuildableName = "Comcast-simpsonsviewer.app"
                BlueprintName = "Comcast-simpsonsviewer"
                ReferencedContainer = "container:Comcast.xcodeproj">
@@ -27,15 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "985E3E74237E4F4E00F00D22"
-            BuildableName = "Comcast-simpsonsviewer.app"
-            BlueprintName = "Comcast-simpsonsviewer"
-            ReferencedContainer = "container:Comcast.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -53,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "985E3E74237E4F4E00F00D22"
+            BlueprintIdentifier = "988036FB2385A5E2003AE4A8"
             BuildableName = "Comcast-simpsonsviewer.app"
             BlueprintName = "Comcast-simpsonsviewer"
             ReferencedContainer = "container:Comcast.xcodeproj">
@@ -70,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "985E3E74237E4F4E00F00D22"
+            BlueprintIdentifier = "988036FB2385A5E2003AE4A8"
             BuildableName = "Comcast-simpsonsviewer.app"
             BlueprintName = "Comcast-simpsonsviewer"
             ReferencedContainer = "container:Comcast.xcodeproj">

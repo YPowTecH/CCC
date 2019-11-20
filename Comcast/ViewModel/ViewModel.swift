@@ -11,10 +11,14 @@ import Foundation
 protocol CharactersDelegate: class {
     func charactersUpdate()
 }
+protocol DetailDelegate: class {
+  func update(_ character: Character)
+}
 
 class ViewModel {
     
     weak var charactersDelegate: CharactersDelegate?
+    weak var detailDelegate: DetailDelegate?
     
     var characters = [Character]() {
         didSet {
@@ -25,12 +29,14 @@ class ViewModel {
     var orderedCharacters = [String:[Character]]() {
         didSet {
             charactersDelegate?.charactersUpdate()
+            
+            //pull up a random character at the start
+            guard let char = orderedCharacters.values.first, let first = char.first else { return }
+            detailDelegate?.update(first)
         }
     }
     
     var filteredCharacters = [Character]()
-    
-    var currentCharacter: Character!
     
     var error: Error?
     

@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		985E3E76237E4F4E00F00D22 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A1D237E23BE0079D2B7 /* Character.swift */; };
-		985E3E77237E4F4E00F00D22 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A2B237E297F0079D2B7 /* CacheManager.swift */; };
-		985E3E78237E4F4E00F00D22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB0461237E212800DFCADF /* MainViewController.swift */; };
-		985E3E79237E4F4E00F00D22 /* CharacterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A21237E26120079D2B7 /* CharacterTableCell.swift */; };
-		985E3E7A237E4F4E00F00D22 /* DDGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A29237E29740079D2B7 /* DDGService.swift */; };
-		985E3E7B237E4F4E00F00D22 /* DDGAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A27237E29110079D2B7 /* DDGAPI.swift */; };
-		985E3E7C237E4F4E00F00D22 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A25237E28150079D2B7 /* DetailViewController.swift */; };
-		985E3E7D237E4F4E00F00D22 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A1F237E25360079D2B7 /* ViewModel.swift */; };
-		985E3E7E237E4F4E00F00D22 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A2D237E2EDE0079D2B7 /* ViewController+Extension.swift */; };
-		985E3E7F237E4F4E00F00D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB045F237E212800DFCADF /* AppDelegate.swift */; };
-		985E3E82237E4F4E00F00D22 /* CharacterTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A60A22237E26120079D2B7 /* CharacterTableCell.xib */; };
-		985E3E83237E4F4E00F00D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0468237E212B00DFCADF /* LaunchScreen.storyboard */; };
-		985E3E84237E4F4E00F00D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0466237E212B00DFCADF /* Assets.xcassets */; };
-		985E3E85237E4F4E00F00D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0463237E212800DFCADF /* Main.storyboard */; };
+		988036F82384BF73003AE4A8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988036F72384BF73003AE4A8 /* MasterViewController.swift */; };
+		988036FD2385A5E2003AE4A8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A1D237E23BE0079D2B7 /* Character.swift */; };
+		988036FE2385A5E2003AE4A8 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A2B237E297F0079D2B7 /* CacheManager.swift */; };
+		988036FF2385A5E2003AE4A8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988036F72384BF73003AE4A8 /* MasterViewController.swift */; };
+		988037002385A5E2003AE4A8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB0461237E212800DFCADF /* MainViewController.swift */; };
+		988037012385A5E2003AE4A8 /* CharacterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A21237E26120079D2B7 /* CharacterTableCell.swift */; };
+		988037022385A5E2003AE4A8 /* DDGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A29237E29740079D2B7 /* DDGService.swift */; };
+		988037032385A5E2003AE4A8 /* DDGAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A27237E29110079D2B7 /* DDGAPI.swift */; };
+		988037042385A5E2003AE4A8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A25237E28150079D2B7 /* DetailViewController.swift */; };
+		988037052385A5E2003AE4A8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A1F237E25360079D2B7 /* ViewModel.swift */; };
+		988037062385A5E2003AE4A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB045F237E212800DFCADF /* AppDelegate.swift */; };
+		988037092385A5E2003AE4A8 /* CharacterTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A60A22237E26120079D2B7 /* CharacterTableCell.xib */; };
+		9880370A2385A5E2003AE4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0468237E212B00DFCADF /* LaunchScreen.storyboard */; };
+		9880370B2385A5E2003AE4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0466237E212B00DFCADF /* Assets.xcassets */; };
+		9880370C2385A5E2003AE4A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0463237E212800DFCADF /* Main.storyboard */; };
 		98A60A1E237E23BE0079D2B7 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A1D237E23BE0079D2B7 /* Character.swift */; };
 		98A60A20237E25360079D2B7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A1F237E25360079D2B7 /* ViewModel.swift */; };
 		98A60A23237E26120079D2B7 /* CharacterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A21237E26120079D2B7 /* CharacterTableCell.swift */; };
@@ -29,7 +30,6 @@
 		98A60A28237E29110079D2B7 /* DDGAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A27237E29110079D2B7 /* DDGAPI.swift */; };
 		98A60A2A237E29740079D2B7 /* DDGService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A29237E29740079D2B7 /* DDGService.swift */; };
 		98A60A2C237E297F0079D2B7 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A2B237E297F0079D2B7 /* CacheManager.swift */; };
-		98A60A2E237E2EDE0079D2B7 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A60A2D237E2EDE0079D2B7 /* ViewController+Extension.swift */; };
 		98EB0460237E212800DFCADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB045F237E212800DFCADF /* AppDelegate.swift */; };
 		98EB0462237E212800DFCADF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EB0461237E212800DFCADF /* MainViewController.swift */; };
 		98EB0465237E212800DFCADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0463237E212800DFCADF /* Main.storyboard */; };
@@ -37,9 +37,35 @@
 		98EB046A237E212B00DFCADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB0468237E212B00DFCADF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		988036EF2384B2EB003AE4A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9880370D2385A5E2003AE4A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		985E3E89237E4F4E00F00D22 /* Comcast-simpsonsviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comcast-simpsonsviewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		985E3E8A237E4F4E00F00D22 /* Comcast-simpsonsviewer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Comcast-simpsonsviewer.plist"; path = "/Users/csonet/.Trash/Coding Challenges/CodeingChallenge/11-15-2019/Comcast/Comcast-simpsonsviewer.plist"; sourceTree = "<absolute>"; };
+		988036E82384B2EB003AE4A8 /* wireviewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wireviewer.h; sourceTree = "<group>"; };
+		988036E92384B2EB003AE4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988036F72384BF73003AE4A8 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		988037112385A5E2003AE4A8 /* Comcast-simpsonsviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comcast-simpsonsviewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		988037122385A5E2003AE4A8 /* Comcast-simpsonsviewer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Comcast-simpsonsviewer.plist"; path = "/Users/csonet/Desktop/IOS/Coding Challenges/Comcast/Comcast-simpsonsviewer.plist"; sourceTree = "<absolute>"; };
 		98A60A1D237E23BE0079D2B7 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		98A60A1F237E25360079D2B7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		98A60A21237E26120079D2B7 /* CharacterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableCell.swift; sourceTree = "<group>"; };
@@ -48,7 +74,6 @@
 		98A60A27237E29110079D2B7 /* DDGAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGAPI.swift; sourceTree = "<group>"; };
 		98A60A29237E29740079D2B7 /* DDGService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGService.swift; sourceTree = "<group>"; };
 		98A60A2B237E297F0079D2B7 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
-		98A60A2D237E2EDE0079D2B7 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		98EB045C237E212800DFCADF /* Comcast-wireviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comcast-wireviewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EB045F237E212800DFCADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98EB0461237E212800DFCADF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +84,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		985E3E80237E4F4E00F00D22 /* Frameworks */ = {
+		988037072385A5E2003AE4A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		988036E72384B2EB003AE4A8 /* wireviewer */ = {
+			isa = PBXGroup;
+			children = (
+				988036E82384B2EB003AE4A8 /* wireviewer.h */,
+				988036E92384B2EB003AE4A8 /* Info.plist */,
+			);
+			path = wireviewer;
+			sourceTree = "<group>";
+		};
 		98A60A15237E23610079D2B7 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +120,6 @@
 		98A60A16237E236B0079D2B7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				98A60A2D237E2EDE0079D2B7 /* ViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -113,6 +146,7 @@
 		98A60A19237E238C0079D2B7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				988036F72384BF73003AE4A8 /* MasterViewController.swift */,
 				98EB0461237E212800DFCADF /* MainViewController.swift */,
 				98A60A25237E28150079D2B7 /* DetailViewController.swift */,
 			);
@@ -149,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				98EB045E237E212800DFCADF /* Comcast */,
+				988036E72384B2EB003AE4A8 /* wireviewer */,
 				98EB045D237E212800DFCADF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -157,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				98EB045C237E212800DFCADF /* Comcast-wireviewer.app */,
-				985E3E89237E4F4E00F00D22 /* Comcast-simpsonsviewer.app */,
+				988037112385A5E2003AE4A8 /* Comcast-simpsonsviewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +210,7 @@
 				98A60A15237E23610079D2B7 /* Helper */,
 				98EB045F237E212800DFCADF /* AppDelegate.swift */,
 				98EB046B237E212B00DFCADF /* Comcast-wireviewer.plist */,
-				985E3E8A237E4F4E00F00D22 /* Comcast-simpsonsviewer.plist */,
+				988037122385A5E2003AE4A8 /* Comcast-simpsonsviewer.plist */,
 			);
 			path = Comcast;
 			sourceTree = "<group>";
@@ -183,13 +218,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		985E3E74237E4F4E00F00D22 /* Comcast-simpsonsviewer */ = {
+		988036FB2385A5E2003AE4A8 /* Comcast-simpsonsviewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 985E3E86237E4F4E00F00D22 /* Build configuration list for PBXNativeTarget "Comcast-simpsonsviewer" */;
+			buildConfigurationList = 9880370E2385A5E2003AE4A8 /* Build configuration list for PBXNativeTarget "Comcast-simpsonsviewer" */;
 			buildPhases = (
-				985E3E75237E4F4E00F00D22 /* Sources */,
-				985E3E80237E4F4E00F00D22 /* Frameworks */,
-				985E3E81237E4F4E00F00D22 /* Resources */,
+				988036FC2385A5E2003AE4A8 /* Sources */,
+				988037072385A5E2003AE4A8 /* Frameworks */,
+				988037082385A5E2003AE4A8 /* Resources */,
+				9880370D2385A5E2003AE4A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +233,7 @@
 			);
 			name = "Comcast-simpsonsviewer";
 			productName = Comcast;
-			productReference = 985E3E89237E4F4E00F00D22 /* Comcast-simpsonsviewer.app */;
+			productReference = 988037112385A5E2003AE4A8 /* Comcast-simpsonsviewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		98EB045B237E212800DFCADF /* Comcast-wireviewer */ = {
@@ -207,6 +243,7 @@
 				98EB0458237E212800DFCADF /* Sources */,
 				98EB0459237E212800DFCADF /* Frameworks */,
 				98EB045A237E212800DFCADF /* Resources */,
+				988036EF2384B2EB003AE4A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,20 +283,20 @@
 			projectRoot = "";
 			targets = (
 				98EB045B237E212800DFCADF /* Comcast-wireviewer */,
-				985E3E74237E4F4E00F00D22 /* Comcast-simpsonsviewer */,
+				988036FB2385A5E2003AE4A8 /* Comcast-simpsonsviewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		985E3E81237E4F4E00F00D22 /* Resources */ = {
+		988037082385A5E2003AE4A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985E3E82237E4F4E00F00D22 /* CharacterTableCell.xib in Resources */,
-				985E3E83237E4F4E00F00D22 /* LaunchScreen.storyboard in Resources */,
-				985E3E84237E4F4E00F00D22 /* Assets.xcassets in Resources */,
-				985E3E85237E4F4E00F00D22 /* Main.storyboard in Resources */,
+				988037092385A5E2003AE4A8 /* CharacterTableCell.xib in Resources */,
+				9880370A2385A5E2003AE4A8 /* LaunchScreen.storyboard in Resources */,
+				9880370B2385A5E2003AE4A8 /* Assets.xcassets in Resources */,
+				9880370C2385A5E2003AE4A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,20 +314,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		985E3E75237E4F4E00F00D22 /* Sources */ = {
+		988036FC2385A5E2003AE4A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985E3E76237E4F4E00F00D22 /* Character.swift in Sources */,
-				985E3E77237E4F4E00F00D22 /* CacheManager.swift in Sources */,
-				985E3E78237E4F4E00F00D22 /* MainViewController.swift in Sources */,
-				985E3E79237E4F4E00F00D22 /* CharacterTableCell.swift in Sources */,
-				985E3E7A237E4F4E00F00D22 /* DDGService.swift in Sources */,
-				985E3E7B237E4F4E00F00D22 /* DDGAPI.swift in Sources */,
-				985E3E7C237E4F4E00F00D22 /* DetailViewController.swift in Sources */,
-				985E3E7D237E4F4E00F00D22 /* ViewModel.swift in Sources */,
-				985E3E7E237E4F4E00F00D22 /* ViewController+Extension.swift in Sources */,
-				985E3E7F237E4F4E00F00D22 /* AppDelegate.swift in Sources */,
+				988036FD2385A5E2003AE4A8 /* Character.swift in Sources */,
+				988036FE2385A5E2003AE4A8 /* CacheManager.swift in Sources */,
+				988036FF2385A5E2003AE4A8 /* MasterViewController.swift in Sources */,
+				988037002385A5E2003AE4A8 /* MainViewController.swift in Sources */,
+				988037012385A5E2003AE4A8 /* CharacterTableCell.swift in Sources */,
+				988037022385A5E2003AE4A8 /* DDGService.swift in Sources */,
+				988037032385A5E2003AE4A8 /* DDGAPI.swift in Sources */,
+				988037042385A5E2003AE4A8 /* DetailViewController.swift in Sources */,
+				988037052385A5E2003AE4A8 /* ViewModel.swift in Sources */,
+				988037062385A5E2003AE4A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,13 +337,13 @@
 			files = (
 				98A60A1E237E23BE0079D2B7 /* Character.swift in Sources */,
 				98A60A2C237E297F0079D2B7 /* CacheManager.swift in Sources */,
+				988036F82384BF73003AE4A8 /* MasterViewController.swift in Sources */,
 				98EB0462237E212800DFCADF /* MainViewController.swift in Sources */,
 				98A60A23237E26120079D2B7 /* CharacterTableCell.swift in Sources */,
 				98A60A2A237E29740079D2B7 /* DDGService.swift in Sources */,
 				98A60A28237E29110079D2B7 /* DDGAPI.swift in Sources */,
 				98A60A26237E28150079D2B7 /* DetailViewController.swift in Sources */,
 				98A60A20237E25360079D2B7 /* ViewModel.swift in Sources */,
-				98A60A2E237E2EDE0079D2B7 /* ViewController+Extension.swift in Sources */,
 				98EB0460237E212800DFCADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,17 +370,19 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		985E3E87237E4F4E00F00D22 /* Debug */ = {
+		9880370F2385A5E2003AE4A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 72WC4L8NSM;
-				INFOPLIST_FILE = "$(SRCROOT)/Comcast-simpsons.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Comcast-simpsonsviewer.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_SWIFT_FLAGS = "-DSIMPSONS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,17 +391,19 @@
 			};
 			name = Debug;
 		};
-		985E3E88237E4F4E00F00D22 /* Release */ = {
+		988037102385A5E2003AE4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 72WC4L8NSM;
-				INFOPLIST_FILE = "$(SRCROOT)/Comcast-simpsons.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Comcast-simpsonsviewer.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_SWIFT_FLAGS = "-DSIMPSONS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,11 +567,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		985E3E86237E4F4E00F00D22 /* Build configuration list for PBXNativeTarget "Comcast-simpsonsviewer" */ = {
+		9880370E2385A5E2003AE4A8 /* Build configuration list for PBXNativeTarget "Comcast-simpsonsviewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				985E3E87237E4F4E00F00D22 /* Debug */,
-				985E3E88237E4F4E00F00D22 /* Release */,
+				9880370F2385A5E2003AE4A8 /* Debug */,
+				988037102385A5E2003AE4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
